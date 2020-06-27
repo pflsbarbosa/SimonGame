@@ -1,18 +1,26 @@
 body {
   text-align: center;
-  background-color: #011F3F;
+  text-shadow: 0px 4px 6px #111d5e;
+  background-color:#fbd46d;
+  margin: 0;
+  padding: 0;
 }
-
+#myBox{
+  margin-top: 50px;;
+  background-color: #e1ffc2;
+  border-radius: 10%;
+}
 #level-title {
   font-family: 'Press Start 2P', cursive;
-  font-size: 3rem;
-  margin:  5%;
-  color: #FEF2BF;
+  font-size: 2rem;
+  margin-top: 100px;
+  color: #111d5e;
 }
 
 .container {
   display: block;
-  width: 50%;
+  height: 100%;
+  width: 100%;
   margin: auto;
 
 }
@@ -20,31 +28,39 @@ body {
 .btn {
   margin: 25px;
   display: inline-block;
-  height: 200px;
-  width: 200px;
-  border: 10px solid black;
-  border-radius: 20%;
+  height: 100px;
+  width: 100px;
+  border: 5px solid #0e2532 ;
+  border-radius: 20%; 
+  box-shadow: 2px 5px #111d5e;
 }
+body > div.container > div{
+  border:10px solid #3ca59d;
+  box-shadow: 5px 10px #111d5e;
+  width: 400px;
+  height: 100%;
+  display:inline-block;
+}
+
 
 .game-over {
   background-color: red;
-  opacity: 0.8;
 }
 
-.red {
-  background-color: red;
+.red { /* Dark Salmon */
+  background-color: #ea907a;
 }
 
 .green {
-  background-color: green;
+  background-color: orange;
 }
 
-.blue {
-  background-color: blue;
+.blue {  /* oliver */
+  background-color: #4f8a8b;
 }
 
-.yellow {
-  background-color: yellow;
+.yellow {  /* Purple Taupe */
+  background-color: #5a3d55;
 }
 
 .pressed {
